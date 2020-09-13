@@ -1,0 +1,287 @@
+
+body{
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+.pageWrap{
+    
+    display: flex;
+    justify-content: center;
+    }
+
+.grid{
+    margin: auto;
+    display: grid;
+    grid-auto-rows: 180px 180px;
+    grid-auto-columns: 180px 180px;
+    gap: 0px;
+    grid-template-areas:
+    "nleft nleft nleft tright tright tright"
+    "nleft nleft nleft tright tright tright"
+    "nleft nleft nleft bright bright bright"
+    "nleft nleft nleft bright bright bright"
+    "bbar bbar bbar bbar bbar bbar"
+    ;
+
+
+}
+.nleft{
+ grid-area: nleft;
+ background: #C7DDEA;
+ 
+ 
+ 
+
+ 
+}
+
+.tright{
+   grid-area: tright; 
+   background: #FAB131;;
+   display:flex;
+   justify-content:flex-start; 
+   flex-direction: column;
+}
+
+.bright{
+    grid-area: bright;
+    background: #F17949;
+    display:flex;
+    justify-content:flex-start; 
+    flex-direction: column;
+    
+}
+
+.bbar{
+    grid-area: bbar;
+    background-color: rgba(255,255,255,0.5);
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.covered{
+margin-left: 20%;
+margin-top: 17.5%;
+width: 314px;
+height: 101px;
+left: 324px;
+top: 71px;
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+.paymentInfo{
+    margin-left: 20%;
+    width: 268px;
+    height: 103px;
+    left: 324px;
+    top: 172px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.paymentInfo span{
+    color: white;
+}
+
+.joinNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 15%;
+    
+    width: 101px;
+    height: 30px;
+	box-shadow: 0px 1px 4px -2px #000000;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:12px;
+	cursor:pointer;
+	color:#666666;
+	font-family: "Fira sans";
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 5px #ffffff;
+}
+.joinNow:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color:#f6f6f6;
+    
+}
+.joinNow:active {
+   
+	position:relative;
+	top:1px;
+}
+
+.family{
+    height: 42%;
+    width: 60%;
+    margin-left: 33%;
+    margin-bottom: 40%;
+    
+    
+}
+
+.offer{
+    
+    margin-top: 30%;
+    display:flex;
+    justify-content:flex-start; 
+    flex-direction: column;
+
+    font-family: "Fira Sans";
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 13px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.learnMore{
+  
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+.whatWaiting{
+    
+    
+    margin-top: 30%;
+    display:flex;
+    justify-content:flex-start; 
+    flex-direction: column;
+    font-family: "Fira Sans";
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 13px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    }
+
+
+
+.joinToday{
+    
+  
+
+        font-family: Frank Ruhl Libre;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+
+        .home{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            font-family: Fira Sans;
+            
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+
+        }
+
+        .ourOffer{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            opacity: 0.4;
+            
+color: #000000;
+ font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+
+}
+
+        .whyUs{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            font-family: Fira Sans;
+            opacity: 0.4;
+            
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+        
+
+        }
+
+        .contact{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            font-family: Fira Sans;
+            opacity: 0.4;
+            
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+        
+
+        }
+
+
+
+
+
+   
+
+
+
