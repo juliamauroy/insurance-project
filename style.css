@@ -310,8 +310,8 @@ line-height: 100%;
         
         .containergrid1 {
             display: grid;
-            grid-template-columns: 20% 20% 20% 20% 20%;
-            grid-template-rows: 20% 20% 20% 20% 20%;
+            grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
             
         }
         
@@ -330,7 +330,7 @@ line-height: 100%;
             letter-spacing: -0,02em;
             color: white;
             justify-content: center;
-            grid-area: 3 / 2 / 4 / 4;
+            grid-area: 2 / 2 / 4 / 4;
         }
         button {
             width: 131px;
@@ -372,7 +372,7 @@ line-height: 100%;
             font-size: 14px;
             line-height: 171%;
             color: rgba(0, 0, 0, 0.6);
-            grid-area: 3 / 4 / 3 / 5;
+            grid-area: 2 / 5 / 3 / 5;
         }
         
         
