@@ -427,12 +427,125 @@ line-height: 100%;
         }
             
         
+        /* tobias del */
+
         
         
         
          
-
+        body{
+            background: #E5E5E5;
+        }
+        footer{
+            margin-left: 220px;
+            margin-right: 220px;
+        }
+        section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 400px);
+        }
+        .box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .first{
+            grid-row: 1;
+            grid-column: 1;
+            background: #C7DDEA;
+        }
+        .second{
+            grid-row: 1;
+            grid-column: 2;
+            background: #FFFFFF;
+        }
+        .third{
+            grid-row: 1;
+            grid-column: 3;
+            background: #EBEBEB;
+        }
+        .fourth{
+            grid-row: 2;
+            grid-column: 1;
+            background: #FFFFFF;
+        }
+        .fifth{
+            grid-row: 2;
+            grid-column: 2;
+            background: #F17949;
+        }
+        .sixth{
+            grid-row: 2;
+            grid-column: 3;
+            background: #FFFFFF;
+        }
+        h3{
+            font-family: Frank Ruhl Libre;
+            font-size: 45px;
+            text-align: center;
+            margin-left: 45px;
+            margin-right: 45px;
+            
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Fira Sans';
+            text-align: center;
+            margin: 0px 45px 0px;
+        }
+        .number{
+            position: absolute;
+            left: 0;
+            font-family: Frank Ruhl Libre;
+            align-self: flex-start;
+            padding: 40px;
+            font-size: 35px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.4);
+        }
+        .up{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+            background: #A9A19E;
+            
+        }
    
+        .grey{
+    
+            height: 400px;
+            background: #777574;
+        }
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+          
+            
+            -webkit-font-smoothing: antialiased;
+            
+            text-rendering: optimizeLegibility;
+          
+            
+            -moz-osx-font-smoothing: grayscale;
+          
+            
+            font-feature-settings: 'liga';
+          }
+        
 
 
 
