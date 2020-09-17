@@ -1,106 +1,248 @@
 body{
-    background: #E5E5E5;
-
+    background-color: rgba(255,255,255,0.5);
+ 
 }
-
-footer{
-
-    margin-left: 220px;
-    margin-right: 220px;
-}
-
-section{
-
+ 
+.pageWrap{
+    
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    }
+ 
+.grid{
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 400px);
+    grid-auto-rows: 180px 180px;
+    grid-auto-columns: 180px 180px;
+    gap: 0px;
+    grid-template-areas:
+    "nleft nleft nleft tright tright tright"
+    "nleft nleft nleft tright tright tright"
+    "nleft nleft nleft bright bright bright"
+    "nleft nleft nleft bright bright bright"
+    "bbar bbar bbar bbar bbar bbar"
+    ;
+ 
+ 
 }
-
-.box{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nleft{
+ grid-area: nleft;
+ background: #C7DDEA;
+ 
+ 
+ 
+ 
+ 
 }
-.first{
-    grid-row: 1;
-    grid-column: 1;
-    background: #C7DDEA;
+ 
+.tright{
+   grid-area: tright; 
+   background: #FAB131;;
+   display:flex;
+   justify-content:flex-start; 
+   flex-direction: column;
 }
-
-
-.second{
-    grid-row: 1;
-    grid-column: 2;
-    background: #FFFFFF;
-}
-
-.third{
-    grid-row: 1;
-    grid-column: 3;
-    background: #EBEBEB;
-}
-
-.fourth{
-
-    grid-row: 2;
-    grid-column: 1;
-    background: #FFFFFF;
-}
-
-.fifth{
-    grid-row: 2;
-    grid-column: 2;
+ 
+.bright{
+    grid-area: bright;
     background: #F17949;
-}
-
-.sixth{
-    grid-row: 2;
-    grid-column: 3;
-    background: #FFFFFF;
-}
-
-h3{
-
-    font-family: Frank Ruhl Libre;
-    font-size: 45px;
-    text-align: center;
-    margin-left: 45px;
-    margin-right: 45px;
-    
-}
-
-p{
-
-    font-size: 20px;
-    font-family: 'Fira Sans';
-    text-align: center;
-    margin: 0px 45px 0px;
-}
-
-.number{
-
-    position: absolute;
-    left: 0;
-    font-family: Frank Ruhl Libre;
-    align-self: flex-start;
-    padding: 40px;
-    font-size: 35px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.up{
-    
-    display: flex;
+    display:flex;
+    justify-content:flex-start; 
     flex-direction: column;
+    
+}
+ 
+.bbar{
+    grid-area: bbar;
+    background-color: rgba(255,255,255,0.5);
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+.covered{
+margin-left: 20%;
+margin-top: 17.5%;
+width: 314px;
+height: 101px;
+left: 324px;
+top: 71px;
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #000000;
+}
+ 
+.paymentInfo{
+    margin-left: 20%;
+    width: 268px;
+    height: 103px;
+    left: 324px;
+    top: 172px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+ 
+.paymentInfo span{
+    color: white;
+}
+ 
+.joinNow {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
-    background: #A9A19E;
+    margin-left: 30%;
+    margin-top: 15%;
+    
+    width: 101px;
+    height: 30px;
+    box-shadow: 0px 1px 4px -2px #000000;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color:#ffffff;
+    border-radius:12px;
+    cursor:pointer;
+    color:#666666;
+    font-family: "Fira sans";
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 8px;
+    text-decoration:none;
+    text-shadow:0px 0px 5px #ffffff;
+}
+.joinNow:hover {
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color:#f6f6f6;
     
 }
-
+.joinNow:active {
+   
+    position:relative;
+    top:1px;
+}
+ 
+.family{
+    height: 42%;
+    width: 60%;
+    margin-left: 33%;
+    margin-bottom: 40%;
+    
+    
+}
+ 
+.offer{
+    
+    margin-top: 30%;
+    display:flex;
+    justify-content:flex-start; 
+    flex-direction: column;
+ 
+    font-family: "Fira Sans";
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 13px;
+ 
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+ 
+.learnMore{
+  
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+ 
+.whatWaiting{
+    
+    
+    margin-top: 30%;
+    display:flex;
+    justify-content:flex-start; 
+    flex-direction: column;
+    font-family: "Fira Sans";
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 13px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    }
+ 
+ 
+ 
+.joinToday{
+    
+  
+ 
+        font-family: Frank Ruhl Libre;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+ 
+        .home{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            font-family: Fira Sans;
+            
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+ 
+        }
+ 
+        .ourOffer{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            text-decoration: none;
+            opacity: 0.4;
+            
+color: #000000;
+ font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+ 
+}
+ 
         .whyUs{
             border: none;
             outline: none;
@@ -115,9 +257,9 @@ font-weight: 600;
 font-size: 12px;
 line-height: 100%;
         
-
+ 
         }
-
+ 
         .contact{
             border: none;
             outline: none;
@@ -132,11 +274,11 @@ font-weight: 600;
 font-size: 12px;
 line-height: 100%;
         
-
+ 
         }
-
-
-
+ 
+ 
+ 
         .flexbackground {
             display: flex;
             flex-direction: column;
@@ -283,44 +425,136 @@ line-height: 100%;
             text-align: center;
         }
             
-        
-        
-        
-        
+        body{
+            background: #E5E5E5;
          
-
-   
-.vector{
-
-}
-
-.grey{
-    
-    height: 400px;
-    background: #777574;
-}
-
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    
-    -webkit-font-smoothing: antialiased;
-    
-    text-rendering: optimizeLegibility;
-  
-    
-    -moz-osx-font-smoothing: grayscale;
-  
-    
-    font-feature-settings: 'liga';
-  }
+        }
+         
+        footer{
+         
+            margin-left: 220px;
+            margin-right: 220px;
+        }
+         
+        section{
+         
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 400px);
+        }
+         
+        .box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .first{
+            grid-row: 1;
+            grid-column: 1;
+            background: #C7DDEA;
+        }
+         
+         
+        .second{
+            grid-row: 1;
+            grid-column: 2;
+            background: #FFFFFF;
+        }
+         
+        .third{
+            grid-row: 1;
+            grid-column: 3;
+            background: #EBEBEB;
+        }
+         
+        .fourth{
+         
+            grid-row: 2;
+            grid-column: 1;
+            background: #FFFFFF;
+        }
+         
+        .fifth{
+            grid-row: 2;
+            grid-column: 2;
+            background: #F17949;
+        }
+         
+        .sixth{
+            grid-row: 2;
+            grid-column: 3;
+            background: #FFFFFF;
+        }
+         
+        h3{
+         
+            font-family: Frank Ruhl Libre;
+            font-size: 45px;
+            text-align: center;
+            margin-left: 45px;
+            margin-right: 45px;
+            
+        }
+         
+        p{
+         
+            font-size: 20px;
+            font-family: 'Fira Sans';
+            text-align: center;
+            margin: 0px 45px 0px;
+        }
+         
+        .number{
+         
+            position: absolute;
+            left: 0;
+            font-family: Frank Ruhl Libre;
+            align-self: flex-start;
+            padding: 40px;
+            font-size: 35px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.4);
+        }
+         
+        .up{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+            background: #A9A19E;
+            
+        }
+         
+        .grey{
+            
+            height: 400px;
+            background: #777574;
+        }
+         
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+          
+            
+            -webkit-font-smoothing: antialiased;
+            
+            text-rendering: optimizeLegibility;
+          
+            
+            -moz-osx-font-smoothing: grayscale;
+          
+            
+            font-feature-settings: 'liga';
+        
