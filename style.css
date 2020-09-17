@@ -279,7 +279,150 @@ line-height: 100%;
 
 
 
-
+        .flexbackground {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        
+        }
+        .background1 {
+        
+            width: 1080px;
+            height: 612px;
+            left: 219px;
+            top: 612px;
+            background-color: #A9A19E;
+            
+           
+        }
+        
+        .background2 {
+            width: 1080px;
+            height: 680px;
+            left: 219px;
+            top: 1224px;
+            background-color: #FAB131;
+           
+            
+        }
+        
+        .containergrid1 {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+            
+        }
+        
+        
+        .yourfiancial {
+           
+            width: 314px;
+            height: 140px;
+            left: 326px;
+            top: 715px;
+            font-family: 'Frank Ruhl Libre', serif;
+            font-size: normal;
+            font-weight: 900;
+            font-size: 45px;
+            line-height: 100%;
+            letter-spacing: -0,02em;
+            color: white;
+            justify-content: center;
+            grid-area: 3 / 2 / 4 / 4;
+        }
+        button {
+            width: 131px;
+            height: 39px;
+            left: 326px;
+            top: 913px;
+            background: white;
+            box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 100px;
+            
+            width: 101px;
+            height: 30px;
+            left: 342px;
+            top: 917px;
+            font-family: fira sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 12px;
+            align-items: center;
+            text-align: center;
+            border: solid white;
+            grid-area: 5 / 2 / 2 / 2;
+            
+           
+        }
+        
+        
+        
+        .textbox1 {
+               
+               width: 280px;
+            height: 237px;
+            left: 812px;
+            top: 715px;
+            font-family: 'Fira Sans', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 171%;
+            color: rgba(0, 0, 0, 0.6);
+            grid-area: 3 / 4 / 3 / 5;
+        }
+        
+        
+        
+        .containergrid2 {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        
+        .aboutus {
+            
+            width: 314px;
+            height: 101px;
+            left: 564px;
+            top: 1411px;
+        
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 45px;
+            line-height: 100%;
+            letter-spacing: -0.02em;
+            color: white;
+          align-items: center;
+          text-align: center;
+            grid-area: 3 / 3 / 3 / 3;
+            
+        }
+        
+        .textbox2 {
+            
+            width: 442px;
+            height: 280px;
+            left: 500px;
+            top: 1523px;
+            font-family: 'Fira Sans', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.6);
+           grid-area: 4 / 2 / 5 / 5;
+           text-align: center;
+            
+        
+        }
+        
+        
+         
 
    
 
