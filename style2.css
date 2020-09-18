@@ -1,0 +1,246 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.pageWrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.grid{
+    margin: auto;
+    display: grid;
+    grid-auto-columns: 1000px;
+    gap: 0px;
+    grid-template-areas:
+        "top"
+        "mid"
+        "bot"
+        "end";
+       }
+
+     
+       .top{
+        grid-area: top;
+        background: #C7DDEA;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+       }
+
+       
+       .mid{
+           grid-area: mid; 
+           height: 60px;
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           background-color: white;
+       }
+       
+       .bot{
+           
+           grid-area: bot;
+           display: flex;
+           background-color: #A9A19E;
+           height: 1000px;
+           flex-direction: row;
+           justify-content: space-evenly;
+           
+       }
+        
+       .end{
+        background: red;
+        grid-area: end;
+    }
+
+    .hello{
+        margin-left:260px ;
+        font-family: Frank Ruhl Libre;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 45px;
+letter-spacing: -0.02em;
+
+
+    }
+
+    .guy{
+        margin-left: 100px;
+    }
+
+    
+
+    
+
+    .home{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: Fira Sans;
+        opacity: 0.4;
+        
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+
+    }
+
+    .ourOffer{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        text-decoration: none;
+        opacity: 0.4;
+        
+color: #000000;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+
+}
+
+    .whyUs{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: Fira Sans;
+        opacity: 0.4;
+        
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+    
+
+    }
+
+    .contact{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: Fira Sans;
+        
+        
+color: #000000;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+    
+
+    }
+
+    .whatsOnyourmind{
+    font-family: Frank Ruhl Libre;
+    margin-top: 69px;
+    width: 314px;
+    height: 140px;
+    left: 297px;
+    top: 514px;
+    
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    
+    /* or 45px */
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+
+
+    }
+
+
+    .container {
+        padding: 12px 24px 24px 24px;
+        margin: 48px 12px;
+        border-radius: 4px;
+        width: 334px;
+        
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    /* Add styles to 'label' selector */
+    label {
+        font-size: 0.85em;
+        margin-left: 12px;
+        color: white;
+    }
+    
+    /* Add styles to 'input' and 'textarea' selectors */
+    input[type=text],input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        
+    }
+    
+    /* Add styles to show 'focus' of selector */
+    input[type=text]:focus,input[type=email]:focus, textarea:focus {
+        border: 1px solid green;
+    }
+    
+    /* Add styles to the submit button */
+    input[type=submit] {
+        background: white;
+        margin: 0 auto;
+        outline: 0;
+        color: black;
+        border: 0;
+        padding: 12px 24px;
+        border-radius: 18px;
+        transition: all ease-in-out 0.1s;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    /* Add styles for 'focus' property */
+    input[type=submit]:focus {
+        background: white;
+        color: whitesmoke;
+    }
+    
+    /* Style 'hover' property */
+    input[type=submit]:hover {
+        background: white;
+    }
+    
+    /* Align items to center of the 'div' with the class 'center' */
+    .center {
+        text-align: center;
+        align-self: flex-end;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    
+
+
+
+
+     
+
+
+
