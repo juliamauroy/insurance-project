@@ -426,6 +426,22 @@ line-height: 100%;
             margin-top: 10px;
         }
 
+        .childlorem {
+            font-family: 'Fira Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 18px;
+            text-align: center;
+            grid-area: 4 / 2;
+            margin-top: 35px;
+            margin-left: 32px;
+            color: rgba(0, 0, 0, 0.4)
+        
+        }
+
+    
+
        
 
         .Adultbox {
@@ -474,6 +490,20 @@ line-height: 100%;
             margin-top: 10px;
         }
 
+        .adultlorem {
+            font-family: 'Fira Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 18px;
+            text-align: center;
+            align-self: center;
+            grid-area: 4 / 3;
+            margin-top: -44px;
+            margin-left: 123px;
+            color: rgba(0, 0, 0, 0.4)
+        }
+
         .Oldfartbox {
             width: 236px;
             height: 150px;
@@ -517,6 +547,19 @@ line-height: 100%;
             align-self: flex-start;
             margin-left: 46px;
             margin-top: 10px;
+        }
+
+        .oldfartlorem {
+            font-family: 'Fira Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 18px;
+            text-align: center;
+            align-self: center;
+            grid-area: 4 / 5;
+            margin-block-end: 41px;
+            color: rgba(0, 0, 0, 0.4)
         }
         
         .containergrid2 {
