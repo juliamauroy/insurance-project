@@ -405,6 +405,15 @@ line-height: 100%;
             margin-left: -9px;
         }
 
+        .childimg {
+            width: auto;
+            height: 138px;
+           z-index: 2;
+           grid-area: 3 / 2;
+           align-self: flex-end;
+           justify-self: center;
+        }
+
        
 
         .Adultbox {
@@ -431,6 +440,15 @@ line-height: 100%;
             margin-top: 453px;
             margin-left: -245px;
         }
+        .adultimg {
+            width: auto;
+            height: 136px;
+            z-index: 2;
+            grid-area: 3 / 3;
+            align-self: flex-end;
+            justify-self: center;
+            margin-left: 90px;
+        }
 
         .Oldfartbox {
             width: 236px;
@@ -455,6 +473,15 @@ line-height: 100%;
             border-radius: 5px;
             margin-top: 453px;
             margin-left: -267px;
+        }
+
+        .oldfartimg {
+            width: auto;
+            height: 150px;
+            grid-area: 3 / 5;
+            z-index: 2;
+            align-self: flex-end;
+            justify-self: center;
         }
         
         .containergrid2 {
