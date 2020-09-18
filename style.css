@@ -415,6 +415,17 @@ line-height: 100%;
            margin-top: 100.4px;
         }
 
+        .childrentext {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 2;
+            align-self: flex-start;
+            margin-left: 23px;
+            margin-top: 10px;
+        }
+
        
 
         .Adultbox {
@@ -451,6 +462,18 @@ line-height: 100%;
             margin-left: 90px;
         }
 
+        .adulttext {
+
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 3;
+            align-self: flex-start;
+            margin-left: 126px;
+            margin-top: 10px;
+        }
+
         .Oldfartbox {
             width: 236px;
             height: 150px;
@@ -483,6 +506,17 @@ line-height: 100%;
             z-index: 2;
             align-self: flex-end;
             justify-self: center;
+        }
+
+        .oldfarttext {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 5;
+            align-self: flex-start;
+            margin-left: 46px;
+            margin-top: 10px;
         }
         
         .containergrid2 {
