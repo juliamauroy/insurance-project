@@ -48,7 +48,7 @@ body{
            grid-area: bot;
            display: flex;
            background-color: #A9A19E;
-           height: 1000px;
+           height: 500px;
            flex-direction: row;
            justify-content: space-evenly;
            
@@ -235,6 +235,56 @@ line-height: 100%;
         margin-left: 200px;
         margin-top: 20px;
     }
+
+    .map-section{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(8, 50px);
+    }
+
+    .orange-box{
+        grid-row: 2 / span 4;
+        grid-column: 2 / span 4;
+        z-index: 2;
+    }
+    
+    .map{
+        
+        display: block;
+        grid-column: 1 / 12;
+        grid-row: 1 / 9;
+    }
+    
+    .orange-box{
+        background: #FAB131;
+        padding: 30px;
+      }
+      
+    
+
+    .orange-box h1{
+
+        color: white;
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .orange-box p{
+
+        font-family: 'fira sans';
+        font-weight: bold;
+        color: white;
+    }
+
+    .grey{
+
+        background: #777474;
+        height: 350px;
+    }
+        
+        
+      
+    
     
 
 
