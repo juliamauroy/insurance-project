@@ -305,6 +305,7 @@ line-height: 100%;
             left: 219px;
             top: 1224px;
             background-color: #FAB131;
+            z-index: -1;
            
             
         }
@@ -354,7 +355,7 @@ line-height: 100%;
             align-items: center;
             text-align: center;
             border: solid white;
-            grid-area: 5 / 2 / 2 / 2;
+            grid-area: 4 / 2 / 3 / 2;
             
            
         }
@@ -375,8 +376,148 @@ line-height: 100%;
             color: rgba(0, 0, 0, 0.6);
             grid-area: 2 / 5 / 3 / 5;
         }
+
         
         
+        .Childrenbox{
+            width: 236px;
+            height: 150px;
+            left: 319px;
+            top: 1039px;
+            background: #C7DDEA;
+            border-radius: 4px;
+            margin-top: 427px;
+            margin-left: 101px;
+            z-index: 1;
+            
+           
+        }
+
+        .childrenwhitebox {
+            width: 256px;
+            height: 308px;
+            top: 1065px;
+            left: 309px;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 453px;
+            margin-left: -9px;
+        }
+
+        .childimg {
+            width: auto;
+            height: 138px;
+           z-index: 2;
+           grid-area: 3 / 2;
+           align-self: flex-end;
+           justify-self: center;
+           margin-top: 100.4px;
+        }
+
+        .childrentext {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 2;
+            align-self: flex-start;
+            margin-left: 23px;
+            margin-top: 10px;
+        }
+
+       
+
+        .Adultbox {
+            width: 236px;
+            height: 150px;
+            left: 602px;
+            top: 1039px;
+            background: #FAB131;
+            border-radius: 4px;
+            margin-top: 427px;
+            margin-left: 81px;
+            z-index: 1;
+           
+        }
+
+        .adultwhitebox {
+            width: 256px;
+            height: 308px;
+            top: 1065px;
+            left: 309px;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 453px;
+            margin-left: -245px;
+        }
+        .adultimg {
+            width: auto;
+            height: 136px;
+            z-index: 2;
+            grid-area: 3 / 3;
+            align-self: flex-end;
+            justify-self: center;
+            margin-left: 90px;
+        }
+
+        .adulttext {
+
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 3;
+            align-self: flex-start;
+            margin-left: 126px;
+            margin-top: 10px;
+        }
+
+        .Oldfartbox {
+            width: 236px;
+            height: 150px;
+            left: 885px;
+            top: 1039px;
+            background: #F17949;
+            border-radius: 4px;
+            margin-top: 427px;
+            margin-left: 23px;
+            z-index: 1;
+            
+        }
+
+        .oldfartwhitebox {
+            width: 256px;
+            height: 308px;
+            top: 1065px;
+            left: 309px;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 453px;
+            margin-left: -267px;
+        }
+
+        .oldfartimg {
+            width: auto;
+            height: 150px;
+            grid-area: 3 / 5;
+            z-index: 2;
+            align-self: flex-end;
+            justify-self: center;
+        }
+
+        .oldfarttext {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            grid-area: 4 / 5;
+            align-self: flex-start;
+            margin-left: 46px;
+            margin-top: 10px;
+        }
         
         .containergrid2 {
             display: grid;
@@ -559,4 +700,4 @@ line-height: 100%;
           
             
             font-feature-settings: 'liga';
-         }
+             }
