@@ -355,7 +355,7 @@ line-height: 100%;
             align-items: center;
             text-align: center;
             border: solid white;
-            grid-area: 5 / 2 / 2 / 2;
+            grid-area: 4 / 2 / 3 / 2;
             
            
         }
@@ -413,7 +413,7 @@ line-height: 100%;
             background: #FAB131;
             border-radius: 4px;
             margin-top: 427px;
-            z-index: 81px;
+            margin-left: 81px;
             z-index: 1;
            
         }
