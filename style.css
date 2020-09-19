@@ -744,3 +744,85 @@ line-height: 100%;
             
             font-feature-settings: 'liga';
              }
+
+
+
+             /* Media Queries */
+@media (max-width: 700px) {
+    .grid {
+      grid-template-areas:
+        "nleft"
+        "tright"
+        "bright";
+        min-width: 700px;
+        
+        
+        
+    }
+
+    .nleft{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .tright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        
+
+    }
+
+    .bright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .bbar{
+        display: none;
+    }
+
+
+.covered{
+    margin: 1px;
+    width: 343px;
+    height: 101px;
+    
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    
+    /* or 45px */
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+.family {
+    height: 42%;
+    width: 80%;
+    align-self: center;
+}
+
+.paymentInfo{
+    width: fit-content;
+}
+
+.offer{
+    margin: 0px;
+}
+
+.whatWaiting{
+    margin: 0px;
+}
+
+}
