@@ -750,6 +750,7 @@ line-height: 100%;
              /* Media Queries */
 @media (max-width: 700px) {
     .grid {
+        grid-auto-columns: 300px;
       grid-template-areas:
         "nleft"
         "tright"
@@ -790,39 +791,75 @@ line-height: 100%;
     }
 
 
-.covered{
-    margin: 1px;
-    width: 343px;
-    height: 101px;
+
+
+
+    .covered{
+        margin: 1px;
+        width: 343px;
+        height: 101px;
+        
+        font-family: Frank Ruhl Libre;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 100%;
+        
+        /* or 45px */
+        letter-spacing: -0.02em;
+        
+        color: #000000;
+    }
     
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 100%;
+    .family {
+        height: 42%;
+        width: 80%;
+        align-self: center;
+    }
     
-    /* or 45px */
-    letter-spacing: -0.02em;
+    .paymentInfo{
+        width: fit-content;
+    }
     
-    color: #000000;
+    .offer{
+        margin: 0px;
+    }
+    
+    .whatWaiting{
+        margin: 0px;
+    }
+    
+    
+    
+    .pageWrap{
+        
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        flex-direction: column;
+        margin: auto;
+        }
+
+
+/* ------------------- Lägg in era Media Queries här nedan mellan raderna. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- */
 }
 
-.family {
-    height: 42%;
-    width: 80%;
-    align-self: center;
-}
 
-.paymentInfo{
-    width: fit-content;
-}
 
-.offer{
-    margin: 0px;
-}
 
-.whatWaiting{
-    margin: 0px;
-}
 
-}
+
