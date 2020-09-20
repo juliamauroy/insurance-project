@@ -626,7 +626,7 @@ line-height: 100%;
          
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 400px);
+            grid-template-rows: repeat(2, 1fr);
         }
          
         .box{
@@ -634,6 +634,7 @@ line-height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 350px;
         }
         .first{
             grid-row: 1;
@@ -716,7 +717,7 @@ line-height: 100%;
          
         .grey{
             
-            height: 400px;
+            height: 350px;
             background: #777574;
         }
          
@@ -843,6 +844,72 @@ line-height: 100%;
 
 /* ------------------- Lägg in era Media Queries här nedan mellan raderna. */
 
+.up{
+
+    display: none;
+}
+
+section{
+         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.first{
+    grid-row: 1;
+    grid-column: 1;
+    background: #C7DDEA;
+}
+ 
+ 
+.second{
+    grid-row: 2;
+    grid-column: 1;
+    background: #FFFFFF;
+}
+ 
+.third{
+    grid-row: 3;
+    grid-column: 1;
+    background: #EBEBEB;
+}
+ 
+.fourth{
+ 
+    grid-row: 4;
+    grid-column: 1;
+    background: #FFFFFF;
+}
+ 
+.fifth{
+    grid-row: 5;
+    grid-column: 1;
+    background: #F17949;
+}
+ 
+.sixth{
+    grid-row: 6;
+    grid-column: 1;
+    background: #FFFFFF;
+}
+
+.box{
+
+    width: 300px;
+    height: 200px;
+}
+
+.number{
+    
+    padding: 10px;
+}
+
+.grey{
+
+    width: 300px;
+    height: 220px;
+}
 
 
 
@@ -857,9 +924,3 @@ line-height: 100%;
 
 /* ---------------- */
 }
-
-
-
-
-
-
