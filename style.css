@@ -756,7 +756,7 @@ line-height: 100%;
         "nleft"
         "tright"
         "bright";
-        min-width: 700px;
+        width: 300px;
         
         
         
@@ -1047,8 +1047,8 @@ button {
 }
 
 
-.footer {
-    width: 700px;
+footer {
+    width: 300px;
 }
 
 .up{
