@@ -842,7 +842,211 @@ line-height: 100%;
         }
 
 
-/* ------------------- Lägg in era Media Queries här nedan mellan raderna. */
+
+
+
+.background1 {
+
+    width: 300px;
+    height: 1580px;
+    left: 0px;
+    top: 1354px;
+      
+   
+}
+
+.background2 {
+    width: 300px;
+    height: 550px;
+    left: 0px;
+    top: 2934px;
+     
+    
+}
+
+.containergrid1 {
+    grid-template-rows: repeat(11, 150px);
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+
+
+.yourfiancial {
+   
+    grid-area: 1;
+}
+
+button {
+   
+    grid-area: 1;
+    margin-top: 140px;
+    margin-left: 106px;
+    
+   
+}
+
+
+
+.textbox1 {
+    
+    grid-area: 3;
+    margin-top: -87px;
+    text-align: center;
+}
+
+
+
+.Childrenbox{
+    
+    grid-area: 4;
+    margin-top: 25px;
+    margin-left: 27px;
+        
+   
+}
+
+.childrenwhitebox {
+    
+    grid-area: 4;
+    margin-top: 46px;
+    margin-left: -42px;
+}
+
+.childimg {
+    
+   grid-area: 4 / 3;
+   align-self: flex-start;
+   margin-top: 37px;
+}
+
+.childrentext {
+    
+    grid-area: 5 / 3;
+    justify-self: center;
+    margin-top: 32px;
+}
+
+.childlorem {
+    
+    grid-area: 5 / 6;
+    margin-top: 63px;
+    margin-left: -264px;
+       
+
+}
+
+
+.Adultbox {
+    grid-area: 7;
+    margin-top: -59px;
+    margin-left: 31px;
+    
+   
+}
+
+.adultwhitebox {
+    grid-area: 7;
+    margin-top: -38px;
+    margin-left: -38px;
+}
+
+
+.adultimg {
+    grid-area: 7;
+    align-self: flex-start;
+    justify-self: start;
+    margin-top: -45px;
+    margin-left: -17px;
+}
+
+
+.adulttext {
+
+    grid-area: 7;
+    align-self: center;
+    margin-left: -74px;
+    margin-top: 64px;
+}
+
+
+.adultlorem {
+    
+    grid-area: 8 / 6;
+    margin-top: -90px;
+    margin-left: -254px;
+    
+}
+
+
+.Oldfartbox {
+
+    grid-area: 9 / 3;
+    margin-top: 2px;
+    margin-left: -3px;
+    justify-self: center;
+    
+    
+}
+
+
+.oldfartwhitebox {
+    
+    grid-area: 9 / 6;
+    margin-top: 31px;
+    margin-left: -279px;
+}
+
+
+.oldfartimg {
+    
+    grid-area: 9 / 6;
+    align-self: center;
+    margin-top: 4px;
+    margin-left: -304px;
+}
+
+.oldfarttext {
+    
+    width: 198px;
+    grid-area: 10 / 3;
+    align-self: flex-start;
+    margin-left: -72px;
+    margin-top: 16px;
+}
+
+
+.oldfartlorem {
+    
+    width: 214px;
+    align-self: flex-start;
+    grid-area: 10;
+    margin-top: 47px;
+    margin-left: 45px;
+}
+
+.containergrid2 {
+    
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
+}
+
+
+    
+    .aboutus {
+       
+        grid-area: 1;
+        margin-top: 10px;
+        margin-left: 26px;
+    
+}
+
+.textbox2 {
+    
+    width: 278px;
+    grid-area: 3 / 3;
+   
+}
+
+
 
 .up{
 
