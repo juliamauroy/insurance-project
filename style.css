@@ -761,7 +761,7 @@ line-height: 100%;
         
         
     }
-
+     
     .nleft{
         display: flex;
         flex-direction: column;
@@ -836,9 +836,9 @@ line-height: 100%;
         
         display: flex;
         justify-content: center;
-        width: 300px;
+        width: 100%;
         flex-direction: column;
-        margin: auto;
+        
         }
 
 
