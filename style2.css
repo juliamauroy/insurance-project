@@ -250,9 +250,8 @@ line-height: 100%;
 
     .pin{
 
-        grid-row: 4;
-        grid-column: 7;
-        z-index: 2;
+        position: absolute;
+        display: block;
     }
     
     .map{
@@ -381,6 +380,11 @@ line-height: 100%;
         flex-direction: row-reverse;
         overflow: hidden;
         
+    }
+
+    .pin{
+
+        display: none;
     }
 }  
 
